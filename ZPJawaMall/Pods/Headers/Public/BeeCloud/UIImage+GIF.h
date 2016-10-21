@@ -1,1 +1,0 @@
-../../../BeeCloud/BCPaySDK/Channel/BaiDu/Dependency/SDWebImage/UIImage+GIF.h

@@ -1,1 +1,0 @@
-../../../BeeCloud/BCPaySDK/Channel/ApplePay/UPAPayPluginDelegate.h

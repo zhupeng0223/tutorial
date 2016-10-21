@@ -1,1 +1,0 @@
-../../../BeeCloud/BCPaySDK/Channel/PayPal/PayPalMobile.h
