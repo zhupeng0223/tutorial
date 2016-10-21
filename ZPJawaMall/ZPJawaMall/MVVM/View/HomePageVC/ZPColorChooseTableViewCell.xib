@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZPColorChooseTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="颜色" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhk-DE-aXW">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="LDi-Gk-BIg"/>
+                            <constraint firstAttribute="width" constant="40" id="ufL-NK-Akc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTh-TN-L0L">
+                        <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="VOT-6h-4Wq"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="雕刻时光A:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uud-kt-C9h">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="byU-9c-qxb"/>
+                            <constraint firstAttribute="width" constant="65" id="r96-9V-aJO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="p41-Eu-VLr">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zJ8-9a-h9N">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已选择:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5P-7m-7kf">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Efk-9o-e8f"/>
+                            <constraint firstAttribute="height" constant="20" id="U7O-Fn-JAg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时光雕刻A/咖啡布纹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EK3-Zf-1gZ">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="6O2-G4-IQp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EK3-Zf-1gZ" firstAttribute="leading" secondItem="p41-Eu-VLr" secondAttribute="leading" id="41U-ME-3Zr"/>
+                    <constraint firstItem="OTh-TN-L0L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="BE1-l9-47y"/>
+                    <constraint firstItem="uud-kt-C9h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FIt-Qv-w6X"/>
+                    <constraint firstItem="F5P-7m-7kf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="FoS-m2-Vgv"/>
+                    <constraint firstItem="p41-Eu-VLr" firstAttribute="top" secondItem="OTh-TN-L0L" secondAttribute="bottom" constant="5" id="Ihg-aw-fq2"/>
+                    <constraint firstAttribute="bottom" secondItem="p41-Eu-VLr" secondAttribute="bottom" constant="25" id="KJn-01-Pqt"/>
+                    <constraint firstItem="EK3-Zf-1gZ" firstAttribute="top" secondItem="p41-Eu-VLr" secondAttribute="bottom" id="OKy-CJ-79Q"/>
+                    <constraint firstAttribute="bottom" secondItem="F5P-7m-7kf" secondAttribute="bottom" constant="5" id="OjH-dT-1iD"/>
+                    <constraint firstItem="OTh-TN-L0L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="33" id="Rfh-ec-4pp"/>
+                    <constraint firstAttribute="trailing" secondItem="OTh-TN-L0L" secondAttribute="trailing" constant="10" id="W56-Qc-Zdq"/>
+                    <constraint firstItem="bhk-DE-aXW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="XuV-bi-Xqg"/>
+                    <constraint firstAttribute="bottom" secondItem="EK3-Zf-1gZ" secondAttribute="bottom" constant="5" id="Zns-4Y-AAz"/>
+                    <constraint firstItem="bhk-DE-aXW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="fg0-cO-jCz"/>
+                    <constraint firstItem="uud-kt-C9h" firstAttribute="top" secondItem="OTh-TN-L0L" secondAttribute="bottom" constant="10" id="i90-uh-gzN"/>
+                    <constraint firstAttribute="trailing" secondItem="p41-Eu-VLr" secondAttribute="trailing" constant="10" id="vBD-z4-H2b"/>
+                    <constraint firstAttribute="trailing" secondItem="EK3-Zf-1gZ" secondAttribute="trailing" constant="10" id="vML-Ik-IHp"/>
+                    <constraint firstItem="p41-Eu-VLr" firstAttribute="leading" secondItem="uud-kt-C9h" secondAttribute="trailing" constant="5" id="xw5-zK-8ho"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionView" destination="p41-Eu-VLr" id="AyB-nM-DbA"/>
+                <outlet property="colorNameLabel" destination="uud-kt-C9h" id="Gfz-6a-vNv"/>
+                <outlet property="isChooseInfoLabel" destination="EK3-Zf-1gZ" id="rkZ-Sk-0Mp"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

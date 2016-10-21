@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR/BeeCloud
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/AliPay"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BeeCloud" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BeeCloud" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/SDWebImage"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/ApplePay" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/BaiDu/BDWalletSDK" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/BaiDu/Dependency/ASIHttpRequest" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/BaiDu/Dependency/BaiduMobStat/BaiduMobStat" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/BaiDu/Dependency/BaiduMobStat" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/BaiDu/Dependency/JSONKit" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/BaiDu/Dependency/SDWebImage" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/PayPal" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/UnionPay" $(inherited) "${PODS_ROOT}/BeeCloud/BCPaySDK/Channel/WXPay"
+OTHER_LDFLAGS = -ObjC -l"ASIHTTPRequest" -l"BaiduMobStatForSDK" -l"BaiduWalletSDK" -l"JSONKit" -l"PayPalMobile" -l"SDWebImage" -l"TouchJSON" -l"UPAPayPlugin" -l"UPPayPlugin" -l"WeChatSDK" -l"c++" -l"sqlite3" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AddressBook" -framework "AddressBookUI" -framework "AlipaySDK" -framework "AudioToolbox" -framework "CoreAudio" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreVideo" -framework "ImageIO" -framework "MapKit" -framework "MessageUI" -framework "MobileCoreServices" -framework "PassKit" -framework "QuartzCore" -framework "Security"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES

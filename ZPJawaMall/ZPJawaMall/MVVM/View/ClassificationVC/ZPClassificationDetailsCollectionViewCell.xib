@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZPClassificationDetailsCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="235" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="235" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4EG-JO-lXS">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="khL-yb-0Kg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小康美厨_雕刻时光A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfy-xE-wMR">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="fn3-LM-XiQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="现价:￥6999-￥24999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QT8-1L-Hqs">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="QT8-1L-Hqs" firstAttribute="top" secondItem="pfy-xE-wMR" secondAttribute="bottom" id="9aM-Ym-mQC"/>
+                <constraint firstAttribute="bottom" secondItem="QT8-1L-Hqs" secondAttribute="bottom" constant="5" id="Drs-Rl-BXd"/>
+                <constraint firstAttribute="trailing" secondItem="QT8-1L-Hqs" secondAttribute="trailing" constant="8" id="G5Q-6O-Frd"/>
+                <constraint firstItem="4EG-JO-lXS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="IxX-FQ-Uq6"/>
+                <constraint firstItem="pfy-xE-wMR" firstAttribute="top" secondItem="4EG-JO-lXS" secondAttribute="bottom" constant="5" id="Sjb-Ua-A4O"/>
+                <constraint firstItem="QT8-1L-Hqs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="WQP-Xr-Ebb"/>
+                <constraint firstItem="4EG-JO-lXS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="d2i-sd-K1g"/>
+                <constraint firstAttribute="trailing" secondItem="pfy-xE-wMR" secondAttribute="trailing" constant="8" id="h1P-cK-WRu"/>
+                <constraint firstAttribute="trailing" secondItem="4EG-JO-lXS" secondAttribute="trailing" id="kri-Ag-upF"/>
+                <constraint firstItem="pfy-xE-wMR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="wwE-Zu-DZu"/>
+            </constraints>
+            <connections>
+                <outlet property="currentPriceLabel" destination="QT8-1L-Hqs" id="ztK-Ny-Q8Y"/>
+                <outlet property="imageView" destination="4EG-JO-lXS" id="xD8-mw-CEn"/>
+                <outlet property="titleLabel" destination="pfy-xE-wMR" id="npF-kK-g7W"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,1 @@
+../../../BeeCloud/BCPaySDK/Channel/BaiDu/Dependency/SDWebImage/UIImage+MultiFormat.h

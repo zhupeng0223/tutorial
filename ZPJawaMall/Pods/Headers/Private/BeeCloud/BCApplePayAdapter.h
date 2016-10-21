@@ -1,0 +1,1 @@
+../../../BeeCloud/BCPaySDK/Channel/ApplePay/BCApplePayAdapter/BCApplePayAdapter.h

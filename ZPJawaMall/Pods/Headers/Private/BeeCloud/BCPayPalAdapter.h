@@ -1,0 +1,1 @@
+../../../BeeCloud/BCPaySDK/Channel/PayPal/BCPayPalAdapter/BCPayPalAdapter.h
